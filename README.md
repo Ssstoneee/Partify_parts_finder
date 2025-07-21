@@ -59,6 +59,7 @@ Each dropdown is dynamically updated based on the previous selection, leveraging
 3. If the selection is invalid or incomplete, an error message will appear.
 
 ## Future Improvements
+- Refactor & streamline code, make logic more coherent and concise, eliminate redundancies, and enhance maintainability.
 - Improve accessibility with ARIA roles and keyboard navigation support.
 - Enhance error messaging with more detailed feedback.
 - Add validation for the CSV data format before parsing.
