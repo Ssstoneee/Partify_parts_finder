@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Add a Vehicle | Partify Test</title>
+		<link rel="stylesheet" href="style2.css" />
+		<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+	</head>
+	<body>
+		<div class="form-container">
+			<h2>Find Parts For Your Vehicle</h2>
+			<p>Please provide more information to search for the parts.</p>
+			<form id="vehicle-form">
+				<div class="form-row">
+					<div class="form-item custom-select">
+						<select id="year" required class="native-select">
+							<option value="" disabled selected>Year</option>
+						</select>
+						<div class="select-trigger">
+							<span class="select-styled-prefix">1</span>
+							<span class="selected-value">Year</span>
+							<span class="arrow">▾</span>
+						</div>
+						<ul class="options"></ul>
+					</div>
+
+					<div class="form-item custom-select">
+						<select id="make" required class="native-select">
+							<option value="" disabled selected>Make</option>
+						</select>
+						<div class="select-trigger">
+							<span class="select-styled-prefix">2</span>
+
+							<span class="selected-value"> Make</span>
+							<span class="arrow">▾</span>
+						</div>
+						<ul class="options"></ul>
+					</div>
+
+					<div class="form-item custom-select">
+						<select id="model" required class="native-select">
+							<option value="" disabled selected>Model</option>
+						</select>
+						<div class="select-trigger">
+							<span class="select-styled-prefix">3</span>
+							<span class="selected-value">Model</span>
+							<span class="arrow">▾</span>
+						</div>
+						<ul class="options"></ul>
+					</div>
+
+					<div class="form-item custom-select">
+						<select id="product-type" required class="native-select">
+							<option value="" disabled selected>Product Type</option>
+						</select>
+						<div class="select-trigger">
+							<span class="select-styled-prefix">4</span>
+							<span class="selected-value">Product Type</span>
+							<span class="arrow">▾</span>
+						</div>
+						<ul class="options"></ul>
+					</div>
+					<div class="form-item">
+						<button type="submit" disabled>Find Parts</button>
+					</div>
+				</div>
+			</form>
+			<div id="error-message"></div>
+		</div>
+		<script src="main_parts_finder_cutom_option.js"></script>
+	</body>
+</html>
